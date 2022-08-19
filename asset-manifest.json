@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Mountapp/static/css/main.ff30330c.chunk.css",
+    "main.js": "/Mountapp/static/js/main.a1919443.chunk.js",
+    "main.js.map": "/Mountapp/static/js/main.a1919443.chunk.js.map",
+    "runtime-main.js": "/Mountapp/static/js/runtime-main.b1e85010.js",
+    "runtime-main.js.map": "/Mountapp/static/js/runtime-main.b1e85010.js.map",
+    "static/js/2.6e5627e4.chunk.js": "/Mountapp/static/js/2.6e5627e4.chunk.js",
+    "static/js/2.6e5627e4.chunk.js.map": "/Mountapp/static/js/2.6e5627e4.chunk.js.map",
+    "static/js/3.6cc624e6.chunk.js": "/Mountapp/static/js/3.6cc624e6.chunk.js",
+    "static/js/3.6cc624e6.chunk.js.map": "/Mountapp/static/js/3.6cc624e6.chunk.js.map",
+    "index.html": "/Mountapp/index.html",
+    "static/css/main.ff30330c.chunk.css.map": "/Mountapp/static/css/main.ff30330c.chunk.css.map",
+    "static/js/2.6e5627e4.chunk.js.LICENSE.txt": "/Mountapp/static/js/2.6e5627e4.chunk.js.LICENSE.txt",
+    "static/media/alpes sud.87c85977.jpeg": "/Mountapp/static/media/alpes sud.87c85977.jpeg",
+    "static/media/alpes.ae550115.jpeg": "/Mountapp/static/media/alpes.ae550115.jpeg",
+    "static/media/index.scss": "/Mountapp/static/media/lst-station.b1f588f9.jpeg",
+    "static/media/corse.9ecddea2.jpeg": "/Mountapp/static/media/corse.9ecddea2.jpeg",
+    "static/media/logo.2c38654d.png": "/Mountapp/static/media/logo.2c38654d.png",
+    "static/media/massif central.0e2a526c.jpeg": "/Mountapp/static/media/massif central.0e2a526c.jpeg",
+    "static/media/pyrenees.cb97c427.jpeg": "/Mountapp/static/media/pyrenees.cb97c427.jpeg",
+    "static/media/region1.32c123ae.jpeg": "/Mountapp/static/media/region1.32c123ae.jpeg",
+    "static/media/vosges2.eea611b6.jpeg": "/Mountapp/static/media/vosges2.eea611b6.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1e85010.js",
+    "static/js/2.6e5627e4.chunk.js",
+    "static/css/main.ff30330c.chunk.css",
+    "static/js/main.a1919443.chunk.js"
+  ]
+}
