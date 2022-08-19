@@ -1,0 +1,223 @@
+.grille_detail{
+    color: $color-4;
+    //display: grid;
+    width: 330px;
+    //border: 4px solid $color-3;
+    border-radius: 3%;
+    background: $color-1;
+    //padding: 15px 20px;
+    margin: 20px 20px 20px 20px;
+    //box-shadow: 1px 1px 7px $color-5;
+   // grid-template-rows: 35px 35px 20px 20px 100px 105px 25px 25px 25px  50px;
+   // justify-content: center;
+   // align-items: center;
+  }
+  
+
+
+  .photo_station{
+        border-radius: 3% 3% 0 0;
+        max-width: 100%;
+        max-height: 230px;
+        opacity : 0,8;
+    }
+
+
+
+  .grille_region{
+     //grid-column: 1/-1;
+     // grid-row: 1/2;
+      font-size: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .grille_region a{
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  .grille_region a::after{
+      content:'';
+      width: 0%;
+      height: 2px;
+      background: $color-2;
+      display: block;
+      margin: auto;
+      transition: 0.4s;
+  }
+  .grille_region a:hover::after{
+      width: 100%;
+  }
+  
+ 
+  .grille_domaine{
+      //   grid-column: 1/-1;
+      //  grid-row: 2/3;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      }
+  
+  .grille_domaine a{
+      text-decoration: none;
+      color: inherit;
+    &::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: $color-2;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+  }
+  
+  
+  .grille_domaine_km{
+   //   grid-column: 1/-1;
+    //  grid-row: 3/4;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .grille_type_liaison{
+   //   grid-column: 1/-1;
+   //   grid-row: 4/5;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .grille_station{
+   //   grid-column: 1/-1;
+   //   grid-row: 5/6;
+      position: relative;
+      top: -130px;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      background: #436C9D;
+      opacity : 0.97;
+      color: inherit;
+      color: $color-1;
+      padding: 15px 20px 20px 15px;
+       &:hover{
+        border: 1px solid $color-2;
+        background: $color-2;
+        transition: 1s;
+        color: $color-1;
+    } 
+  }
+  
+  .grille_station a {
+      text-decoration: none;
+      color: $color-1;
+     
+  }
+
+  
+  .grille_logo{
+   //   grid-column: 1/-1;
+   //   grid-row: 6/7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+  .grille_hauteur{
+  //     grid-column: 1/-1;
+  //    grid-row: 7/8;
+      font-size: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3px;
+  }
+
+  .icon_moutain{
+    max-width: 20px;
+    max-height: 20px;
+    margin: 3px;
+}
+  
+  .grille_nb_meca{
+   //   grid-column: 1/-1;
+   //   grid-row: 8/9;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .icon_ski{
+    max-width: 20px;
+    max-height: 20px;
+    margin: 3px;
+}
+
+  .grille_nb_pist_verte{
+      grid-column: 3/4;
+      grid-row: 5/6;
+      font-size: 10px;
+  }
+  .grille_nb_pist_bleue{
+      grid-column: 4/5;
+      grid-row: 5/6;
+      font-size: 10px;
+  }
+  .grille_nb_pist_rouge{
+      grid-column: 3/4;
+      grid-row: 6/7;
+      font-size: 10px;
+  }
+  .grille_nb_pist_noire{
+      grid-column: 4/5;
+      grid-row: 6/7;
+      font-size: 10px;
+  }
+  .grille_station_km{
+ //      grid-column: 1/-1;
+//      grid-row: 9/10;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .icon_ski_lift{
+    max-width: 20px;
+    max-height: 20px;
+    margin: 3px;
+}
+
+  .grille_label{
+    grid-column: 1/-1;
+    grid-row: 10/11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height: 50px;
+  
+    }
+  .grille_label img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+  }
+
+  hr{
+   margin-top: 10px;
+   margin-bottom: 10px;
+    opacity : 0.3;
+  }
